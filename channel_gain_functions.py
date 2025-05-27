@@ -1,3 +1,9 @@
+### Description ###
+# p1, p2: positions (coordinates [x, y, z]) of nodes 1 and 2, respectively for which the channel gain or path loss is to be determined
+# f_c: carrier freqeuncy [Hz]
+# get_PL(p1, p2, f_c): get path loss between nodes 1 and 2 [dB]
+# get_channel_gain(p1, p2, f_c): get channel gain between nodes 1 and 2 (linear value)
+
 import math
 
 def get_distance2D(p1, p2):
